@@ -6,7 +6,7 @@
 #include "SearchTypes/MonteCarloRotorSearch.h"
 
 namespace PNAB {
-    std::string run(RuntimeParameters runtime_params, Backbone &py_backbone,
+    std::string run(RuntimeParameters runtime_params, const Backbone &py_backbone,
                     std::vector<Base> py_bases, HelicalParameters hp, std::string prefix) {
         Backbone backbone(py_backbone.file_path, py_backbone.interconnects, py_backbone.linker);
         Bases bases(py_bases);

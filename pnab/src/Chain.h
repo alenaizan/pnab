@@ -14,7 +14,7 @@ class Chain {
 
 public:
     Chain() {};
-    Chain(PNAB::Bases bases, PNAB::Backbone &backbone, std::vector<std::string> strand,
+    Chain(PNAB::Bases bases, const PNAB::Backbone &backbone, std::vector<std::string> strand,
           std::string ff_type, std::array<unsigned, 2> &range, bool double_stranded = true, bool hexad = false);
     ~Chain() {
         for (auto v : base_coords_vec_)
