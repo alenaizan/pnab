@@ -9,7 +9,7 @@ using namespace std;
 using namespace PNAB;
 using namespace OpenBabel;
 
-Chain::Chain(Bases bases, Backbone backbone, vector<string> strand, string ff_type,
+Chain::Chain(Bases bases, Backbone &backbone, vector<string> strand, string ff_type,
              std::array<unsigned, 2> &range, bool double_stranded, bool hexad) {
 
     hexad_ = hexad;

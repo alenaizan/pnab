@@ -9,7 +9,7 @@ using namespace PNAB;
 using namespace std;
 using namespace OpenBabel;
 
-MonteCarloRotorSearch::MonteCarloRotorSearch(RuntimeParameters &runtime_params, Backbone backbone,
+MonteCarloRotorSearch::MonteCarloRotorSearch(RuntimeParameters &runtime_params, Backbone &backbone,
                                              HelicalParameters &helical_params, Bases bases, string prefix) {
     prefix_ = prefix;
     runtime_params_ = runtime_params;
