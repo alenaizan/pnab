@@ -1,3 +1,5 @@
+# NOTE: Development of pNAB moved to https://github.com/GT-NucleicAcids/pnab
+
 # proto-Nucleic Acid Builder (pNAB)
 ## Try the Package: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alenaizan/pnab/master?urlpath=%2Fapps%2Fbinder%2Fdriver.ipynb)
 ## Read the documentation: [![docs v1.1.4](https://img.shields.io/badge/docs-v1.1.4-blue)](https://proto-nucleic-acid-builder-v1-1-4.netlify.app/html/index.html)
